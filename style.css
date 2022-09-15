@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  text-align: center;
+}
+
+#sub-header {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 1%;
+}
+
+#navbar-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#main-banner {
+  background-color: rgb(245, 245, 238);
+  max-width: 95%;
+  max-height: 20%;
+  width: 95%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+}
+#banner-container {
+  margin: 12%;
+}
+#main-banner h1 {
+  color: rgb(51, 117, 152);
+  font-weight: lighter;
+  font-size: 64px;
+}
+
+#main-banner h4 {
+  font-weight: lighter;
+}
+
+#main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+#btn-cart {
+  font-size: large;
+  margin-top: 7.5%;
+  width: 50%;
+  height: 60px;
+  background-color: rgb(51, 117, 152);
+  font-style: italic;
+  color: white;
+  border-radius: 0.25rem;
+  border: 0;
+}
+
+#row-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#row-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 95%;
+  width: 95%;
+  justify-content: space-around;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#row-img {
+  margin: 1% 0.5%;
+}
+#bottom-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 95%;
+  width: 95%;
+}
+
+#info-container {
+  margin-left: 2%;
+  justify-content: flex-start;
+}
+
+#media-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 95%;
+  width: 90%;
+  padding: 2.5%;
+  padding-left: 5%;
+}
+
+#footer p {
+  margin-left: 5%;
+  font-size: x-small;
+  text-align: left;
+}
+
+#mobile-navbar {
+  display: none;
+}
+
+#mobile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 550px) {
+  #sub-header {
+    display: contents;
+  }
+  #logo {
+    width: 60%;
+  }
+
+  #sub-header p {
+    margin: 1.5%;
+  }
+
+  #mobile-navbar {
+    display: contents;
+  }
+
+  #body-spacer {
+    width: 100%;
+  }
+
+  #navbar {
+    display: none;
+  }
+  #main-banner {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #main-banner h1 {
+    color: rgb(51, 117, 152);
+    font-weight: lighter;
+    font-size: 34px;
+  }
+
+  #btn-cart {
+    width: 70%;
+    height: 50px;
+  }
+}
